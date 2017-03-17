@@ -1,5 +1,5 @@
-int screenwidth=800;
-int screenheight=600;
+int screenwidth = 800 ;
+int screenheight = 600 ;
 
 
 void setup(){
@@ -9,13 +9,13 @@ void draw(){
    background(225);
 
 
-if(mouseX >= 400 && mouseY <= 300 )
+if(mouseX >= screenwidth/2 && mouseY <= screenheight/2 )
   background(50,150,120);
 
-if(mouseY >= 300 && mouseX >= 300 )
+if(mouseY >= screenheight/2 && mouseX >= screenheight/2 )
   background(50,10,100);
   
-if(mouseX <= 400 && mouseY >= 300 )
+if(mouseX <= screenwidth/2 && mouseY >= screenheight/2 )
   background(300,155,0);
 
 stroke (255);{
